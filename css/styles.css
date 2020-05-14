@@ -110,6 +110,7 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
+
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -130,4 +131,49 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+ #title {
+   text-align: center;
+ }
+
+.iphone-img {
+  position:static;
+  transform: rotate(0);
+ }
+
+}
+
+/* Call to action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+.cta-text {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 0px 120px;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+  background-color: #fff;
+  }
+
+.copywright-text {
+  padding: 15px 0;
+}
+
+.footer-ico {
+  padding: 0 10px;
 }
