@@ -21,15 +21,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900|Ubuntu&display=swap" rel="stylesheet">
    <!-- JQuery   -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script>
-  $(document).ready(function() {
-    if($(window).width() <= 768) {
-      $("button").removeClass("btn-dark");
-      $("button").addClass("btn-outline-light");
-    }
-});
   
-  </script>
 </head>
 
 <body>
@@ -216,7 +208,15 @@
 
   </footer>
 
-
+ <script>
+  $(document).ready(function() {
+    if($(window).width() <= 768) {
+      $("button").removeClass("btn-dark");
+      $("button").addClass("btn-outline-light");
+    }
+});
+  
+  </script>
 </body>
 
 </html>
