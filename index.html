@@ -22,10 +22,9 @@
    <!-- JQuery   -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-  $(window).on( "load" function() {
-    if($(window).width() < 768) {
-      $("#darkbtn").removeClass("btn-dark");
-      //$("#darkbtn").addClass("btn-outline-light");
+  $(document).ready(function() {
+    if($(window).width() < 900) {
+      $("#darkbtn").removeClass("btn-dark").addClass("btn-outline-light");
     }
 });
   
