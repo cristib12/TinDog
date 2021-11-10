@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" id="darkbtn" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" id="darkbtn" class="left-btn btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
@@ -67,13 +67,22 @@
     </div>
   </section>
  <script>
-    function myFunction() {
-      if (window.screen.width < 900) {
+  /*  function changePos() {
+      if (window.screen.width < 800) {
   var element = document.getElementById("darkbtn");
   element.classList.remove("btn-dark");
   element.classList.add("btn-outline-light");
 }}
- //   myFunction();
+  changePos(); */
+   
+   function changePos() {
+      if (window.screen.width < 800) {
+  var element = document.getElementsByClassName("left-btn");
+  element.classList.remove("btn-dark");
+  element.classList.add("btn-outline-light");
+}}
+  changePos(); 
+   
   </script>
 
   <!-- Features -->
