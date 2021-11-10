@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" id="darkbtn" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
@@ -211,8 +211,8 @@
  <script>
   $(document).ready(function() {
     if($(window).width() <= 768) {
-      $("button").removeClass("btn-dark");
-      $("button").addClass("btn-outline-light");
+      $("#darkbtn").removeClass("btn-dark");
+      $("#darkbtn").addClass("btn-outline-light");
     }
 });
   
