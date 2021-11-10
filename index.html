@@ -68,9 +68,11 @@
   </section>
  <script>
     function myFunction() {
+      if (window.screen.width < 900) {
   var element = document.getElementById("darkbtn");
   element.classList.remove("btn-dark");
-}
+  element.classList.add("btn-outline-light");
+}}
     myFunction();
   </script>
 
