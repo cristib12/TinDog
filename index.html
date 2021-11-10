@@ -22,7 +22,7 @@
    <!-- JQuery   -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-  $(document).ready(function() {
+  $(window).on( "load" function() {
     if($(window).width() < 768px) {
       $("#darkbtn").removeClass("btn-dark");
       //$("#darkbtn").addClass("btn-outline-light");
